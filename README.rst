@@ -43,3 +43,8 @@ To trigger the build of the documentation.
 After that open `docs/build/index.html`
 in your browser.
 
+
+.. |Build Status| image:: https://img.shields.io/github/workflow/status/MPL-IT/sample-project/Checks
+   :target: https://github.com/MPL-IT/sample-project/actions?query=workflow%3AChecks
+.. |Coverage Status| image:: https://img.shields.io/codecov/c/github/MPL-IT/sample-project/main.svg
+   :target: https://codecov.io/gh/MPL-IT/sample-project
