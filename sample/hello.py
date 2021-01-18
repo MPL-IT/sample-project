@@ -6,4 +6,8 @@ def greetings(name):
     :param name: str, whom to say hello to
     :return: str, greeting
     """
+
+    if name == 'LeChuck':
+        raise ValueError
+
     return 'Hello, ' + name + '!'

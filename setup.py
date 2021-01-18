@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 from setuptools import setup, find_packages
 
-name = 'sample-project'
+name = 'sample'
 
 setup(
     name=name,
