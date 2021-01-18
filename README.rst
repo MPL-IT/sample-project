@@ -21,3 +21,19 @@ This is a subsection with code examples. Indentation matters!
 
     greetings()
 
+How to Build the Documentation
+------------------------------
+
+In the `docs` folder, Mac or Linux users type
+
+```
+make html
+```
+
+and Windows users execute
+```
+make.bat html
+```
+To trigger the build of the documentation. After that open `docs/build/index.html`
+in your browser.
+
