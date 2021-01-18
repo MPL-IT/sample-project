@@ -14,7 +14,7 @@ Subsection
 
 This is a subsection with code examples. Indentation matters!
 
-.. code-block::
+.. code-block:: ipython
 
     import numpy as np
     from sample.hello import greetings
