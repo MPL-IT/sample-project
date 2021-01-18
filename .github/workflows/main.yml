@@ -10,8 +10,8 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        python-version: ['3.7', '3.8']
-        os: [ubuntu-latest, macos-latest, windows-latest]
+        python-version: ['3.8'] # add more versions here
+        os: [ubuntu-latest] # add more platforms here (e.g. macos-latest, windows-latest)
 
     steps:
     - uses: actions/checkout@v2
@@ -30,7 +30,7 @@ jobs:
         pip freeze
     - name: Test with pytest
       run: |
-        coverage run --source=findiff setup.py test
+        coverage run --source=sample-project setup.py test
     - name: Submit code coverage
       run: |
         coverage report -m
