@@ -26,14 +26,20 @@ How to Build the Documentation
 
 In the `docs` folder, Mac or Linux users type
 
-```
-make html
-```
+.. code-block::
+
+    make html
+
 
 and Windows users execute
-```
-make.bat html
-```
-To trigger the build of the documentation. After that open `docs/build/index.html`
+
+.. code-block::
+
+    make.bat html
+
+
+To trigger the build of the documentation. 
+
+After that open `docs/build/index.html`
 in your browser.
 
