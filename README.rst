@@ -2,6 +2,8 @@
 Sample Project
 ==============
 
+|Build Status| |Coverage Status|
+
 This is a sample Python project that you can use as a template at MPL.
 
 Section
