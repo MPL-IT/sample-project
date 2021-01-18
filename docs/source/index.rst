@@ -13,8 +13,6 @@ Welcome to sample-project's documentation!
    other_page
    code_ref
 
-.. math:: a^2 + b^2 = c^2
-
 Indices and tables
 ==================
 
