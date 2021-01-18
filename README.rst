@@ -21,5 +21,3 @@ This is a subsection with code examples. Indentation matters!
 
     greetings()
 
-
-.. math:: a^2 + b^2 = c^2
