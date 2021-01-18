@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-from os.path import exists, dirname, realpath
 from setuptools import setup, find_packages
 
 name = 'sample-project'
